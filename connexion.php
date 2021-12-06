@@ -25,7 +25,7 @@ $db = mysqli_connect("localhost:3306","mahiedinne123", "12345", "mahiedinne-bouc
       }
       else{
         $_SESSION['login'] =$login;
-        header('location: index.php');
+        header('location: profil.php');
       
       
       }
