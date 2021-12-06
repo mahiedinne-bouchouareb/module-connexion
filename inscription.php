@@ -2,7 +2,7 @@
 <?php
 session_start();
  //connexion base de donner
-$db = mysqli_connect("localhost","root", "", "moduleconnexion");
+$db = mysqli_connect("localhost:3306","mahiedinne", "12345", "mahiedinne-bouchouareb_moduleconnexion");
 if (isset($_POST['submit'])){
   //creation de variable qui contienne la valeur qui sera rentré dans chaque champ $_POST
   $login = $_POST['login'];
