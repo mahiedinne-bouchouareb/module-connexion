@@ -1,6 +1,6 @@
 <?php 
 session_start();
-$db = mysqli_connect("localhost","root", "", "moduleconnexion");
+$db = mysqli_connect("localhost:3306","mahiedinne", "12345", "mahiedinne-bouchouareb_moduleconnexion");
 $requete =mysqli_query ($db ,"SELECT * FROM  utilisateurs ");
 $query = mysqli_fetch_all($requete,MYSQLI_ASSOC);
 
