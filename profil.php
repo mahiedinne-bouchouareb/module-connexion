@@ -2,7 +2,7 @@
  session_start();
  
  
-$db = mysqli_connect("localhost:3306","mahiedinne", "12345", "mahiedinne-bouchouareb_moduleconnexion");
+$db = mysqli_connect("localhost:3306","mahiedinne123", "12345", "mahiedinne-bouchouareb_moduleconnexion");
  
  if(isset($_SESSION['login']))
  {
