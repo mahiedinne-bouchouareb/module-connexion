@@ -26,7 +26,7 @@ if (isset($_POST['submit'])){
       // maintenant je test que tout les champ du formulaire son rempli et existe dans $_POST
       if (isset($login) && isset($prenom) && isset($nom) && isset($password)) { 
               $requete = mysqli_query ($db , "INSERT INTO `utilisateurs` (`login`,`prenom`,`nom`,`password`) VALUES ( '$login', '$prenom', '$nom', '$password')");
-              //header("Location: connexion.php");
+              header("Location: connexion.php");
       }
     }
     else
