@@ -6,7 +6,7 @@
    }
 
    //connexion base de donner
-  $db = mysqli_connect("localhost","root","", "moduleconnexion"); 
+$db = mysqli_connect("localhost:3306","mahiedinne", "12345", "mahiedinne-bouchouareb_moduleconnexion");
   
    if (isset($_POST['login']) && isset($_POST['password'])){
     $login = htmlspecialchars($_POST['login']);
