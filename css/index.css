@@ -1,0 +1,522 @@
+.indexBackground
+{
+    background-image: url("../images/japon.jpg");
+    margin: 0;
+    background-size: cover;
+    background-attachment: fixed;  
+    
+} 
+*
+{
+  margin: 0;
+}
+  .adminBackground
+  {
+      background-image: url("../images/08102807065.jpg");
+      background-size: cover;
+      background-attachment: fixed;  
+      background-color: rgb(224, 43, 43);
+  }
+  
+  .adminBackground h1
+  {
+    margin: 1%;
+  }
+  .profilBackground
+  {
+      background-image: url("../images/karate3.jpg");
+      background-repeat: no-repeat;
+      background-size:cover;
+      background-position-y: center;
+      background-position-y: -20em;
+      background-attachment: fixed;
+  }
+  .inscriptionBody{
+    background-image: url("../images/karate 4.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+  }
+
+  #main .formInscription
+  {
+    width: 20%;
+    position: absolute;
+    bottom: 25%;
+    margin-left: 10%;
+  }
+  #formProfil
+  {
+      border: solid;
+      border-radius: 50px;
+      width: 5%;
+      background-color: rgb(183, 183, 223);
+  }
+
+  .formProfil-item input
+  {
+    box-shadow: 8px 8px 0px #aaa; 
+  }
+
+  .formProfil-item
+  {
+    width: 50%;
+    margin: 0 auto;
+    display: inline-block;
+    padding-bottom: 10px;
+    text-align: center;
+  }
+
+  html,body{
+    height:100%
+  }
+ #main{
+  min-height: 92%;
+  margin-bottom:-80px ;
+}
+ #main::after{
+ content: "";
+ display: block; 
+}
+footer,#main::after{
+  height: 80px;
+}
+table {
+  border: medium solid #64e8ed;
+  border-collapse: collapse;
+  width: 50%;
+  justify-content: center;
+  margin: 0 auto;
+  font-size: large;
+}
+h1{
+  height:30px;
+  text-align:center;
+  line-height:20px;
+  font-family: verdana;
+  font-size: 500%;
+  color:black;
+  text-align: center;    
+  font-style: oblique 15deg;
+}
+
+header{
+
+  margin-bottom:15px;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+
+}
+  
+  
+  a:hover{
+    text-decoration:underline;
+    color:#3600cc ;
+ }
+  
+
+ul {
+  font-size: 40px;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  list-style-type:none;
+
+}
+
+#accueil
+{
+  color: blanchedalmond;
+}
+
+#connexionForm
+{
+  float: left;
+  width: 30%;
+  margin-left: 5%;
+  border: solid;
+  border-radius: 50px;
+  background-color: rgb(183, 183, 223);
+}
+
+.articles {
+  width : 85%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between; 
+  font-weight: bold;
+  color:azure;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 50px; 
+  margin: auto;
+  background-color: rgb(255,255,255, 0.3);
+  padding: 1em;
+}
+
+.para {
+  width: 80%;
+  height: auto;
+  text-align:justify;
+  
+
+}
+
+
+
+table {
+    border: medium solid #64e8ed;
+    border-collapse: collapse;
+    width: 50%;
+    margin: 200;
+    justify-content: center;
+    margin: auto;
+    
+}
+
+    th {
+    font-family: monospace;
+    border: thin solid #6495ed;
+    width: 50%;
+    padding: 20px;
+    background-color: #D0E3FA;
+
+    }
+    td {
+    font-family: sans-serif;
+    border: thin solid #6495ed;
+    width: 50%;
+    padding: 5px;
+    text-align: center;
+    background-color: #ffffff;
+    }
+    th {
+      font-family: monospace;
+      border: thin solid #6495ed;
+      width: 50%;
+      padding: 20px;
+      background-color: #D0E3FA;
+  
+      }
+      td {
+      font-family: sans-serif;
+      border: thin solid rgb(113, 88, 202);
+      width: 50%;
+      padding: 5px;
+      text-align: center;
+      background-color: #ffffff;
+      }
+      a{
+        text-decoration: none;
+        color: rgb(239, 243, 243);
+      }
+      .box {
+        border: 1px solid #c4c4c4;
+        padding: 30px 25px 10px 25px;
+        background: white;
+        margin: 30px auto;
+        width: 360px;
+      }
+    
+      h1.box-logo a {
+        text-decoration:none;
+      }
+      h1.box-title {
+        color: #AEAEAE;
+        background: #f8f8f8;
+        font-weight: 300;
+        padding: 15px 25px;
+        line-height: 30px;
+        font-size: 25px;
+        text-align:center;
+        margin: -27px -26px 26px;
+      }
+      .box-button {
+        border-radius: 5px;
+        background: #d2483c;
+        text-align: center;
+        cursor: pointer;
+        font-size: 19px;
+        width: 100%;
+        height: 51px;
+        padding: 0;
+        color: #fff;
+        border: 0;
+        outline:0;
+      }
+      .box-register
+      {
+        text-align:center;
+        margin-bottom:0px;
+        
+      }
+      .box-register a
+      {
+        text-decoration:none;
+        font-size:12px;
+        color:#666;
+      }
+      .box-input {
+        font-size: 14px;
+        background: #fff;
+        border: 1px solid #ddd;
+        margin-bottom: 25px;
+        padding-left:10px;
+        border-radius: 5px;
+        width: 347px;
+        height: 50px;
+      }
+      .box-input:focus {
+          outline: none;
+          border-color:#5c7186;
+      }
+      .sucess{
+        text-align: center;
+        color: white;
+      }
+      .sucess a {
+        text-decoration: none;
+        color: #58aef7;
+      }
+      p.errorMessage {
+          background-color: #e66262;
+          border: #AA4502 1px solid;
+          padding: 5px 10px;
+          color: #FFFFFF;
+          border-radius: 3px;
+      }
+    
+      .btIndex {
+        font-size: 40px;
+        display: flex;
+        text-align: center;
+        justify-content: space-around;
+        list-style-type:none;
+        text-decoration: none;
+        height: 300px;
+      }
+    
+      a {
+        text-decoration: none;
+        color: azure;
+      }
+
+form
+{
+  justify-content:center;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+  background-size: cover;
+  background-attachment: fixed;
+  margin-top: 20px;
+  background-color: #fff;
+  padding: 40px 60px;
+  border-radius: 50px;
+  width: 40%;
+  min-width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  border: solid;
+}
+
+form h1{
+  color: #eb7371;
+  text-align:center;
+  display: flex;
+}
+
+
+#social-media{
+    align-items: center;
+    justify-content: space-around;
+}
+
+.social-item
+{
+  font-size: 35px;
+  
+}
+
+#facebook i
+{
+  color: blue;
+}
+
+#youtube i
+{
+  color: red;
+}
+
+#twitter i
+{
+  color: cyan;
+}
+
+#google i
+{
+  color: whitesmoke;
+}
+
+#inscriptionTitre h1
+{
+  margin-bottom: 15px;
+  font-size: 50px;
+}
+
+#formInscription
+{
+  border: solid;
+  border-radius: 50px;
+}
+
+#karateTitre
+{
+  margin-top: 5%;
+  margin-bottom: 7%;
+}
+
+
+.inputs{
+  opacity: 100;
+  padding: 15px;
+  border:none;
+  border-radius: 5px;
+  background-color:#f2f2f2;
+  outline:none;
+  margin-bottom: 15px;
+  width: 50%;
+  justify-content: center;
+   display: flex;
+  flex-direction: column;
+}
+form p.inscription{
+  font-size: 14px;
+  margin-bottom: 20px;
+  color: #878787;
+}
+form p.inscription span{
+  color: #eb7371;
+}
+form button{
+  padding: 15px 25px;
+  border-radius: 5px;
+  border:none;
+  font-size: 15px;
+  color: #fff;
+  background-color: #eb7371;
+  outline:none;
+  cursor:pointer;
+}
+header{
+  
+  margin-bottom:15px;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  
+}
+a:hover{
+  text-decoration:underline;
+  color:#3600cc ;
+}
+
+ul {
+  font-size: 40px;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  list-style-type:none;
+}
+a {
+  text-decoration: none;
+  color:black;
+  
+}
+footer{
+  height: 80px;
+  background-color: black;
+  text-align: center;
+  display: flex;
+  
+}
+
+.connexionBackground
+{
+  background-image: url("../images/connexionBackground.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size:cover;
+  height: 65%;
+}
+
+.inputs{
+  padding: 15px;
+  border:none;
+  border-radius: 5px;
+  background-color:#f2f2f2;
+  outline:none;
+  margin-bottom: 15px;
+  width: 50%;
+  justify-content: center;
+   display: flex;
+  flex-direction: column;
+}
+form p.inscription{
+  font-size: 14px;
+  margin-bottom: 20px;
+  color: #878787;
+}
+form p.inscription span{
+  color: #eb7371;
+}
+form button{
+  padding: 15px 25px;
+  border-radius: 5px;
+  border:none;
+  font-size: 15px;
+  color: #fff;
+  background-color: #eb7371;
+  outline:none;
+  cursor:pointer;
+}
+header{
+  
+  margin-bottom:15px;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  
+}
+a:hover{
+  text-decoration:underline;
+  color:#3600cc ;
+}
+
+ul {
+  font-size: 40px;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  list-style-type:none;
+}
+a {
+  text-decoration: none;
+  color:black;
+  
+}
+
+#imgKarate
+{
+  margin: auto;
+  text-align: center;
+}
+
+#article1
+{
+    margin-bottom: 10%;
+}
