@@ -11,6 +11,7 @@
         <div class="social-item" id="twitter">
             <a href="https://twitter.com/ffkarate"><i class="fab fa-twitter"></i></a>
             <a href="https://github.com/mahiedinne-bouchouareb/module-connexion.git" class="fa fa-github" style="font-size:40px; display:flex"></a>
+        
         </div>   
     </footer>
   </body>
