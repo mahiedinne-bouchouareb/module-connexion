@@ -1,29 +1,10 @@
 .indexBackground
 {
-    
     background-image: url("../images/japon.jpg");
     margin: 0;
     background-size: cover;
     background-attachment: fixed;  
-    fa {  
-    padding: 20px;  
-    text-align: center;  
-    margin: 5px 2px;  
-    font-size: 16px;  
-    width: 50px;  
-    border-radius: 12px;
-    display: flex;
-    justify-content: center;
-  }  
-
-.fa-github {  
-    color: white;  
-    height: 20px;
-  }
-   
-  .fa:hover {  
-    opacity: 0.9;  
-} 
+    
 } 
 *
 {
@@ -158,6 +139,15 @@ ul {
   border-radius: 50px;
   background-color: rgb(183, 183, 223);
 }
+
+
+.fa-github {  
+  color: white;  
+  height: 20px;
+  background-image: url("../images/github.png");
+ 
+}
+ 
 
 .articles {
   width : 85%;
@@ -374,6 +364,10 @@ form h1{
 #twitter i
 {
   color: cyan;
+}
+
+#github i{
+  color: white;
 }
 
 #google i
